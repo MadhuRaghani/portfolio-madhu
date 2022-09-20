@@ -8,7 +8,9 @@
 :root{
     --primary-color:#813772;
     --secondary-color: #f5d0fe;
+    --ternary-color:  #fdf4ff;
     --white-color: #fff;
+    --black-color: #000;
 }
 
 body {
@@ -48,7 +50,8 @@ hr{
     background-color: var(--primary-color);
     color: white;
     border-radius: 1rem;
-    margin: 1rem auto;
+    margin-top: 10rem;
+    margin: 2rem auto;
     padding: 0.5rem 1rem;
 }
 
@@ -120,6 +123,8 @@ hr{
     padding: 1rem;
     margin: 2rem auto;
     border-radius: 2rem;
+    border: 1px solid var(--black-color);
+    width: 35rem;
 }
 
 .section h1{
@@ -128,6 +133,15 @@ hr{
 
 .section-alt{
     background-color: var(--secondary-color);
+}
+
+.section-alt-2{
+    background-color: var(--ternary-color);
+
+}
+
+.section p{
+    margin: 2rem auto;
 }
 
 .footer{
