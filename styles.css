@@ -8,6 +8,7 @@
 :root{
     --primary-color:#813772;
     --secondary-color: #f5d0fe;
+    --white-color: #fff;
 }
 
 body {
@@ -125,8 +126,8 @@ hr{
     text-align: center;
 }
 
-.ow{
-    background-color: var(--light-gray-color);
+.section-alt{
+    background-color: var(--secondary-color);
 }
 
 .footer{
@@ -149,7 +150,7 @@ hr{
     padding-inline-start: 0px;
 }
 
-.footer-icons{
+.icons{
     padding: 10px;
     width: 50px;
     text-align: center;
