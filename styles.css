@@ -53,7 +53,7 @@ hr{
 .link-primary{
     max-width: 140px;
     background-color: var(--primary-color);
-    color: white;
+    color: var(--white-color);
     border-radius: 1rem;    
 }
 
@@ -80,7 +80,7 @@ hr{
 
 .navigation{
     background-color: var(--primary-color);
-    color: white;
+    color: var(--white-color);
     padding: 0.5rem 1rem;
     border-bottom-left-radius: 0.5rem;
 }
@@ -91,7 +91,7 @@ hr{
 }
 
 .navigation .link{
-    color: white;
+    color: var(--white-color);
 }
 
 .nav-pills{
@@ -121,7 +121,7 @@ hr{
 
 .section{
     padding: 1rem;
-    margin: 1rem auto;
+    margin: 1.5rem auto;
     border-radius: 2rem;
     border: 1px solid var(--black-color);
     max-width: 35rem;
@@ -148,8 +148,9 @@ article{
     display: contents;
 }
 
+
 /* projects grid */
-.grid-container {
+/* .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     padding: 10px;
@@ -157,14 +158,13 @@ article{
 
   .grid-item {
     padding: 20px;
-    /* text-align: center; */
-  }
+   }  */
 
 .footer{
     background-color: var(--primary-color);
     padding: 1rem 0.5rem;
     text-align: center;
-    color: white;
+    color: var(--white-color);
     border-top-right-radius: 1rem;
 }
 
@@ -173,7 +173,7 @@ article{
 }
 
 .footer .link{
-    color: white;
+    color: var(--white-color);
 }
 
 .footer ul{
@@ -185,6 +185,15 @@ article{
     width: 50px;
     text-align: center;
     text-decoration: none;
+}
+
+.labels{
+    max-width: 140px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border-radius: 50%;    
+    margin-left: 0.5rem;
+    padding: 0.5rem;
 }
 
 /** projects **/
