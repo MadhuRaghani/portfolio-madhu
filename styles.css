@@ -86,6 +86,7 @@ hr{
 }
 
 .nav-brand{
+    position: absolute;
     font-family: cursiveFont;
     font-size: x-large;
 }
